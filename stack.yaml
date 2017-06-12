@@ -1,0 +1,36 @@
+resolver: lts-7.8
+
+# stack new       - Create new project from template
+# stack build     - Build current package
+# stack setup     - Install compiler for package
+# stack exec      - Execute command in package's context
+# stack ghc       - Run GHC compiler
+# stack runghc    - Run source file in interpreted mode
+# stack ghci      - Run GHCi in package's context
+# stack install   - Install package's executable in user's patch
+# stack test      - Run project's test suites
+# stack bench     - Build and "benchmark" targets
+# stack haddok    - Build documentation for package
+# stack templates - List all available templates for `stack new` command
+# stack init      - Create Stack configuration for .cabal-based project
+# stack path      - Print out various Stack-related paths
+# stack upgrade   - Upgrade to latest version of Stack
+# stack upload    - Upload package to Hackage repository
+# stack stdist    - Create source distribution archive
+# stack hoogle    - Search with Hoogle search engine
+# stack clean     - Clean Package files
+
+# rebuilds the project once it detects changes
+# stack build --file-watch --fast
+
+# runs and rebuilds the project once it detects changes
+# stack build --file-watch --fast --exec minimal-app
+
+# reruns the test once it detects changes
+# stack test --file-watch --fast
+
+# reruns the bench once it detects changes
+# stack bench --file-watch --fast
+
+# all together :)
+# stack build --bench --test --exec minimal-app --fast --file-watch

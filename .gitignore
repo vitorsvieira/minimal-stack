@@ -1,0 +1,5 @@
+dist/
+.stack*
+/.stack-work/
+.cabal-sandbox
+cabal.sandbox.config
